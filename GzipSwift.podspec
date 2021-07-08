@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
                       :tag => s.version }
   s.source_files  = 'Sources/Gzip/*.swift'
 
-  s.module_name = 'Gzip'
+  s.module_name = 'GzipSwift'
   s.osx.deployment_target     = '10.9'
   s.ios.deployment_target     = '8.0'
   s.watchos.deployment_target = '2.0'
